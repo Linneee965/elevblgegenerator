@@ -1,0 +1,26 @@
+{
+    "name": "ElevBølgegenerator",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "elevblgegenerator": "github:andreasteggesvik/elevblgegenerator#e06ac01efeca84949e50e54a2edf2a6235f83148"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.51",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
